@@ -1,10 +1,12 @@
+/* zerando as configurações */
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
-.produtos p{
+/* Etilizando o parágrafo */
+.products p {
     margin: 0;
     text-align: center;
     padding: 10px;
@@ -12,51 +14,46 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header{
+header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    color: #54a1d4;
-    padding: 30px;
-    background-color: rgb(207, 233, 255);
-}
-
-footer{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-    background-color: rgb(207, 233, 255);
-    color: rgb(165, 165, 165);
-    padding: 15px;
-    text-align: center;
-}
-
-main{
-    background-color: aliceblue;
-}
-
-.produtos{
-    background-color: white;
-    border: 1px;
-    border-style: solid;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    border: 1px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-
-.produtos img{
-    width: 100%;
-    height: auto;
-    padding-bottom: 10px;
+    color:#333;
+    padding:30px;
+    background-color: #d3d3d3;
 }
 
 main#album{
-    display: flex;
+    display:flex;
     flex-flow: row wrap;
     justify-content: space-around;
 }
 
 section .coluna{
     flex: 1 1 100%;
+    padding: 0px 5px;
+}
+
+.products{
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding:20px;
+    margin-bottom:20px;
+    /* transformando em container */
+    display: flex;
+    /* deixa o texto embaixo da imagem */
+    flex-direction: column;
+}
+.products img{
+    width:100%;
+    height:auto;
+    padding-bottom:10px;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background-color: #000000;
+    color:#ffffff;
+    padding:30px;
+    text-align:center;
 }
